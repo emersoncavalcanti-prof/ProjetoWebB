@@ -58,6 +58,8 @@ public class JFLogin extends javax.swing.JFrame {
         jLabel2.setForeground(new java.awt.Color(255, 255, 255));
         jLabel2.setText("Senha");
         jPanel2.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 170, -1, -1));
+
+        jPasswordFieldSenha.setText("1234");
         jPanel2.add(jPasswordFieldSenha, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 190, 190, -1));
 
         jLabel1.setFont(new java.awt.Font("Square721 Cn BT", 1, 36)); // NOI18N
@@ -74,6 +76,8 @@ public class JFLogin extends javax.swing.JFrame {
             }
         });
         jPanel2.add(jButtonEntrar, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 240, 190, -1));
+
+        jTextFieldUsuario.setText("emerson");
         jPanel2.add(jTextFieldUsuario, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 140, 190, -1));
 
         jLabel4.setForeground(new java.awt.Color(255, 255, 255));
