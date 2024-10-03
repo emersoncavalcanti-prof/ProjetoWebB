@@ -30,10 +30,10 @@ public class Main extends javax.swing.JFrame {
         jButton2 = new javax.swing.JButton();
         jButton3 = new javax.swing.JButton();
         jButton1 = new javax.swing.JButton();
-        jButton4 = new javax.swing.JButton();
-        jButton5 = new javax.swing.JButton();
         jButton6 = new javax.swing.JButton();
         jButton8 = new javax.swing.JButton();
+        jButton4 = new javax.swing.JButton();
+        jButton5 = new javax.swing.JButton();
         jButton7 = new javax.swing.JButton();
         jLabel1 = new javax.swing.JLabel();
         jMenuBar1 = new javax.swing.JMenuBar();
@@ -72,20 +72,6 @@ public class Main extends javax.swing.JFrame {
         jButton1.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
         jToolBar1.add(jButton1);
 
-        jButton4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/horario.png"))); // NOI18N
-        jButton4.setText("Horário");
-        jButton4.setFocusable(false);
-        jButton4.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        jButton4.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
-        jToolBar1.add(jButton4);
-
-        jButton5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/boletim.png"))); // NOI18N
-        jButton5.setText("Notas");
-        jButton5.setFocusable(false);
-        jButton5.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        jButton5.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
-        jToolBar1.add(jButton5);
-
         jButton6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/trabalhador.png"))); // NOI18N
         jButton6.setText("Funcionários");
         jButton6.setFocusable(false);
@@ -99,6 +85,20 @@ public class Main extends javax.swing.JFrame {
         jButton8.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
         jButton8.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
         jToolBar1.add(jButton8);
+
+        jButton4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/horario.png"))); // NOI18N
+        jButton4.setText("Horário");
+        jButton4.setFocusable(false);
+        jButton4.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        jButton4.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
+        jToolBar1.add(jButton4);
+
+        jButton5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/boletim.png"))); // NOI18N
+        jButton5.setText("Notas");
+        jButton5.setFocusable(false);
+        jButton5.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        jButton5.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
+        jToolBar1.add(jButton5);
 
         jButton7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/sair.png"))); // NOI18N
         jButton7.setText("Sair");
