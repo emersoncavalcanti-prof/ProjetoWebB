@@ -16,8 +16,8 @@
 
 
 -- Copiando estrutura do banco de dados para 2dsb
-CREATE DATABASE IF NOT EXISTS `2dsb` /*!40100 DEFAULT CHARACTER SET latin1 COLLATE latin1_swedish_ci */;
-USE `2dsb`;
+CREATE DATABASE IF NOT EXISTS `dsb2` /*!40100 DEFAULT CHARACTER SET latin1 COLLATE latin1_swedish_ci */;
+USE `dsb2`;
 
 -- Copiando estrutura para tabela 2dsb.aluno
 CREATE TABLE IF NOT EXISTS `aluno` (
